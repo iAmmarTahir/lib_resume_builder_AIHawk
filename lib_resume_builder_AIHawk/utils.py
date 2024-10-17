@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
+import platform
 
 def create_driver_selenium():
     options = get_chrome_browser_options()  # Use the method to get Chrome options
